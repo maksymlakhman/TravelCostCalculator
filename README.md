@@ -1,6 +1,6 @@
 
 
-## :smile: Розрахунок Турагента
+## :globe_with_meridians: :airplane: Розрахунок Турагента
 <table>
   <tr>
     <td align="center">
