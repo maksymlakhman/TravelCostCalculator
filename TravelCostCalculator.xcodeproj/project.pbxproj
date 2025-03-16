@@ -10,6 +10,13 @@
 		77E054A52D876D2B00EB8E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77E054A12D876D2B00EB8E64 /* Assets.xcassets */; };
 		77E054A62D876D2B00EB8E64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E054A22D876D2B00EB8E64 /* ContentView.swift */; };
 		77E054A72D876D2B00EB8E64 /* TravelCostCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E054A32D876D2B00EB8E64 /* TravelCostCalculatorApp.swift */; };
+		77E054A92D876E0400EB8E64 /* ScheduleDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E054A82D876E0300EB8E64 /* ScheduleDataView.swift */; };
+		77E054AB2D876E3A00EB8E64 /* CalculationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E054AA2D876E3900EB8E64 /* CalculationView.swift */; };
+		77E054AD2D8774CE00EB8E64 /* TeamData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E054AC2D8774CD00EB8E64 /* TeamData.swift */; };
+		77E054AF2D8774DC00EB8E64 /* PriceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E054AE2D8774DB00EB8E64 /* PriceData.swift */; };
+		77E054B12D8774EB00EB8E64 /* ScheduleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E054B02D8774EA00EB8E64 /* ScheduleData.swift */; };
+		77E054B32D87750200EB8E64 /* TeamDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E054B22D87750100EB8E64 /* TeamDataView.swift */; };
+		77E054B52D87751F00EB8E64 /* PriceDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E054B42D87751E00EB8E64 /* PriceDataView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +24,13 @@
 		77E054A12D876D2B00EB8E64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77E054A22D876D2B00EB8E64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		77E054A32D876D2B00EB8E64 /* TravelCostCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelCostCalculatorApp.swift; sourceTree = "<group>"; };
+		77E054A82D876E0300EB8E64 /* ScheduleDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleDataView.swift; sourceTree = "<group>"; };
+		77E054AA2D876E3900EB8E64 /* CalculationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculationView.swift; sourceTree = "<group>"; };
+		77E054AC2D8774CD00EB8E64 /* TeamData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamData.swift; sourceTree = "<group>"; };
+		77E054AE2D8774DB00EB8E64 /* PriceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceData.swift; sourceTree = "<group>"; };
+		77E054B02D8774EA00EB8E64 /* ScheduleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleData.swift; sourceTree = "<group>"; };
+		77E054B22D87750100EB8E64 /* TeamDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDataView.swift; sourceTree = "<group>"; };
+		77E054B42D87751E00EB8E64 /* PriceDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceDataView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +63,13 @@
 		77E054A42D876D2B00EB8E64 /* TravelCostCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				77E054B42D87751E00EB8E64 /* PriceDataView.swift */,
+				77E054B22D87750100EB8E64 /* TeamDataView.swift */,
+				77E054B02D8774EA00EB8E64 /* ScheduleData.swift */,
+				77E054AE2D8774DB00EB8E64 /* PriceData.swift */,
+				77E054AC2D8774CD00EB8E64 /* TeamData.swift */,
+				77E054AA2D876E3900EB8E64 /* CalculationView.swift */,
+				77E054A82D876E0300EB8E64 /* ScheduleDataView.swift */,
 				77E054A12D876D2B00EB8E64 /* Assets.xcassets */,
 				77E054A22D876D2B00EB8E64 /* ContentView.swift */,
 				77E054A32D876D2B00EB8E64 /* TravelCostCalculatorApp.swift */,
@@ -128,7 +149,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77E054A92D876E0400EB8E64 /* ScheduleDataView.swift in Sources */,
+				77E054B32D87750200EB8E64 /* TeamDataView.swift in Sources */,
+				77E054AF2D8774DC00EB8E64 /* PriceData.swift in Sources */,
 				77E054A62D876D2B00EB8E64 /* ContentView.swift in Sources */,
+				77E054B52D87751F00EB8E64 /* PriceDataView.swift in Sources */,
+				77E054B12D8774EB00EB8E64 /* ScheduleData.swift in Sources */,
+				77E054AB2D876E3A00EB8E64 /* CalculationView.swift in Sources */,
+				77E054AD2D8774CE00EB8E64 /* TeamData.swift in Sources */,
 				77E054A72D876D2B00EB8E64 /* TravelCostCalculatorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
